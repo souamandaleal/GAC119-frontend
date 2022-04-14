@@ -1,7 +1,10 @@
 <script setup>
+  import { NButton } from 'naive-ui'
 </script>
 
-<template></template>
+<template>
+  <n-button>Teste</n-button>
+</template>
 
 <style scoped>
 </style>
