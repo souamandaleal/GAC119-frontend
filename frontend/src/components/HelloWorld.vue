@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <b-button variant="danger">Button</b-button>
+    <b-button variant="danger">Button</b-button>
   </div>
 </template>
 
