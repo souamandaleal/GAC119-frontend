@@ -2,17 +2,16 @@
   <b-div>
     <b-container fluid>
       <b-row class="card-login card-body">
-        <b-card title="Sign In" sub-title="Entre com o seu email e senha">
+        <b-card title="Sing Up" sub-title="Bem vindo ao Help Calouro">
           <b-form-group class="form-campo">
+            <b-form-input type="text" placeholder="Nome"></b-form-input>
+            <b-form-input type="text" placeholder="Sobrenome"></b-form-input>
             <b-form-input type="email" placeholder="E-mail"></b-form-input>
             <b-form-input type="password" placeholder="Senha"></b-form-input>
           </b-form-group>
-          <b-button variant="outline-dark">Entrar</b-button>
-          <h5 class="texto-apoio">Faça seu login também pelo</h5>
-          <b-icon class="icone-login" icon="google" font-scale="1.9"></b-icon>
-          <b-icon icon="facebook" font-scale="2"></b-icon>
+          <b-button variant="outline-dark">Cadastrar</b-button>
           <b-row>
-            <router-link to="/">Já tem cadastro? Login</router-link>
+            <router-link class="lnk" to="/">Já tem cadastro? Login</router-link>
           </b-row>
         </b-card>
       </b-row>
@@ -46,6 +45,11 @@ export default {
 }
 
 .texto-apoio {
+  font-size: 1em;
+  margin-top: 5%;
+}
+
+.lnk {
   font-size: 1em;
   margin-top: 5%;
 }
