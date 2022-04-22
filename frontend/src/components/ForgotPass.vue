@@ -2,15 +2,11 @@
   <b-div>
     <b-container fluid>
       <b-row class="card-login card-body">
-        <b-card title="Sign In" sub-title="Entre com o seu email e senha">
+        <b-card title="Recuperar senha" sub-title="Entre com o seu e-mail">
           <b-form-group class="form-campo">
             <b-form-input type="email" placeholder="E-mail"></b-form-input>
-            <b-form-input type="password" placeholder="Senha"></b-form-input>
           </b-form-group>
-          <b-button variant="outline-dark">Entrar</b-button>
-          <h5 class="texto-apoio">Faça seu login também pelo</h5>
-          <b-icon class="icone-login" icon="google" font-scale="1.9"></b-icon>
-          <b-icon icon="facebook" font-scale="2"></b-icon>
+          <b-button variant="outline-dark">Enviar</b-button>
         </b-card>
       </b-row>
     </b-container>
