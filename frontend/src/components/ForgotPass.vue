@@ -1,7 +1,7 @@
 <template>
   <b-div>
     <b-container fluid>
-      <b-row class="card-login card-body my-1">
+      <b-row class="card-login card-body">
         <b-card title="Sign In" sub-title="Entre com o seu email e senha">
           <b-form-group class="form-campo">
             <b-form-input type="email" placeholder="E-mail"></b-form-input>
@@ -11,9 +11,6 @@
           <h5 class="texto-apoio">Faça seu login também pelo</h5>
           <b-icon class="icone-login" icon="google" font-scale="1.9"></b-icon>
           <b-icon icon="facebook" font-scale="2"></b-icon>
-          <b-row>
-            <b-link href="#" class="texto-apoio">Esqueceu a sua senha?</b-link>
-          </b-row>
         </b-card>
       </b-row>
     </b-container>
@@ -34,11 +31,10 @@ export default {
   position: fixed;
   left: 28%;
   right: 28%;
-  bottom: 1%;
 }
 
 .card-body {
-  padding: 6rem 6rem;
+  padding: 2rem 2rem;
 }
 
 .form-control {
